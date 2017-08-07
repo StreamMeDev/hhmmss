@@ -1,0 +1,26 @@
+{
+  "name": "@streammedev/hhmmss",
+  "version": "1.0.0",
+  "description": "Converts a number of seconds to hh:mm:ss format",
+  "main": "index.js",
+  "keywords": [
+    "seconds",
+    "duration",
+    "hhmmss"
+  ],
+  "author": "StreamMe",
+  "license": "ICS",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:StreamMeDev/hhmmss.git"
+  },
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublish": "npm test",
+    "postpublish": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "standard": "^10.0.3"
+  }
+}
